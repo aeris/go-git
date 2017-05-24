@@ -11,7 +11,7 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/cozy/go-git/plumbing/transport"
 
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"

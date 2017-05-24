@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
+	"github.com/cozy/go-git/plumbing/protocol/packp"
+	"github.com/cozy/go-git/plumbing/transport"
 )
 
 var errReceivePackNotSupported = errors.New("receive-pack not supported yet")

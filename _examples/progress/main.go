@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
+	"github.com/cozy/go-git"
+	. "github.com/cozy/go-git/_examples"
 )
 
 // Example of how to show the progress when you do a basic clone operation.

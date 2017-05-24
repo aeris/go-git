@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/filemode"
+	"github.com/cozy/go-git/plumbing/format/index"
+	"github.com/cozy/go-git/plumbing/object"
+	"github.com/cozy/go-git/storage/memory"
 
 	"github.com/src-d/go-git-fixtures"
 	. "gopkg.in/check.v1"

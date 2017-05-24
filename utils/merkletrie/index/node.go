@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/cozy/go-git/plumbing/format/index"
+	"github.com/cozy/go-git/utils/merkletrie/noder"
 )
 
 // The node represents a index.Entry or a directory inferred from the path

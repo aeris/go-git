@@ -4,8 +4,8 @@ package ssh
 import (
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/internal/common"
+	"github.com/cozy/go-git/plumbing/transport"
+	"github.com/cozy/go-git/plumbing/transport/internal/common"
 
 	"golang.org/x/crypto/ssh"
 )

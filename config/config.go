@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	format "gopkg.in/src-d/go-git.v4/plumbing/format/config"
+	format "github.com/cozy/go-git/plumbing/format/config"
 )
 
 const (

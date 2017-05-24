@@ -1,9 +1,9 @@
 package filesystem
 
 import (
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/internal/dotgit"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/storer"
+	"github.com/cozy/go-git/storage/filesystem/internal/dotgit"
 )
 
 type ReferenceStorage struct {

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/object"
+	"github.com/cozy/go-git/storage/memory"
 	"github.com/src-d/go-git-fixtures"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

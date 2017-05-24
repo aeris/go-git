@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/cozy/go-git/plumbing"
 
 	. "gopkg.in/check.v1"
 )

@@ -3,7 +3,7 @@ package filesystem
 import (
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/storage/test"
+	"github.com/cozy/go-git/storage/test"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v2/memfs"

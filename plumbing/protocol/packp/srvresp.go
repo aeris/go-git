@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/format/pktline"
 )
 
 const ackLineLen = 44

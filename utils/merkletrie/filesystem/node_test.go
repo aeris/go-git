@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/utils/merkletrie"
+	"github.com/cozy/go-git/utils/merkletrie/noder"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v2"
 	"gopkg.in/src-d/go-billy.v2/memfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
 )
 
 func Test(t *testing.T) { TestingT(t) }

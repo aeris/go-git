@@ -3,7 +3,7 @@ package transport
 import (
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
+	"github.com/cozy/go-git/plumbing/protocol/packp/capability"
 
 	. "gopkg.in/check.v1"
 )

@@ -3,12 +3,12 @@ package object
 import (
 	"sort"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/filemode"
+	"github.com/cozy/go-git/plumbing/storer"
+	"github.com/cozy/go-git/storage/filesystem"
+	"github.com/cozy/go-git/utils/merkletrie"
+	"github.com/cozy/go-git/utils/merkletrie/noder"
 
 	"github.com/src-d/go-git-fixtures"
 	. "gopkg.in/check.v1"

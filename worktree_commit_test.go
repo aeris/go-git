@@ -3,10 +3,10 @@ package git
 import (
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/object"
+	"github.com/cozy/go-git/plumbing/storer"
+	"github.com/cozy/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v2"

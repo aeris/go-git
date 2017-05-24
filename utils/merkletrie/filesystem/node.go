@@ -5,10 +5,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/filemode"
+	"github.com/cozy/go-git/utils/merkletrie/noder"
 	"gopkg.in/src-d/go-billy.v2"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
 )
 
 var ignore = map[string]bool{

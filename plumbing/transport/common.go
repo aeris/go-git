@@ -20,9 +20,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/protocol/packp"
+	"github.com/cozy/go-git/plumbing/protocol/packp/capability"
 )
 
 var (

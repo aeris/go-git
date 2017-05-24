@@ -1,9 +1,9 @@
 package server
 
 import (
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
+	"github.com/cozy/go-git/plumbing/storer"
+	"github.com/cozy/go-git/plumbing/transport"
+	"github.com/cozy/go-git/storage/filesystem"
 
 	"gopkg.in/src-d/go-billy.v2"
 	"gopkg.in/src-d/go-billy.v2/osfs"

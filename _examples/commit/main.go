@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
+	"github.com/cozy/go-git"
+	. "github.com/cozy/go-git/_examples"
+	"github.com/cozy/go-git/plumbing/object"
 )
 
 // Basic example of how to commit changes to the current branch to an existant

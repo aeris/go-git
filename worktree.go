@@ -8,12 +8,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
+	"github.com/cozy/go-git/config"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/filemode"
+	"github.com/cozy/go-git/plumbing/format/index"
+	"github.com/cozy/go-git/plumbing/object"
+	"github.com/cozy/go-git/utils/merkletrie"
 
 	"gopkg.in/src-d/go-billy.v2"
 )

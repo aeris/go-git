@@ -8,14 +8,14 @@ import (
 	"io"
 	"io/ioutil"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/format/packfile"
+	"github.com/cozy/go-git/plumbing/protocol/packp"
+	"github.com/cozy/go-git/plumbing/transport"
+	"github.com/cozy/go-git/storage/memory"
 
+	"github.com/cozy/go-git/plumbing/protocol/packp/capability"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
 )
 
 type UploadPackSuite struct {

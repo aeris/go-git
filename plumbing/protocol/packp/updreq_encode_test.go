@@ -3,11 +3,12 @@ package packp
 import (
 	"bytes"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/format/pktline"
+
+	"io/ioutil"
 
 	. "gopkg.in/check.v1"
-	"io/ioutil"
 )
 
 type UpdReqEncodeSuite struct{}

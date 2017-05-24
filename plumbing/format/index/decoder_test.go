@@ -3,8 +3,8 @@ package index
 import (
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/filemode"
 
 	"github.com/src-d/go-git-fixtures"
 	. "gopkg.in/check.v1"

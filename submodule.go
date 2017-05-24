@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
+	"github.com/cozy/go-git/config"
+	"github.com/cozy/go-git/plumbing"
+	"github.com/cozy/go-git/plumbing/format/index"
 )
 
 var (
